@@ -32,7 +32,7 @@ public class CustomerController {
         return "/create";
     }
 
-    @GetMapping("/save")
+    @PostMapping("/save")
     private String save(Customer customer){
         customer.setId((int) (Math.random() * 1000));
         customerService.save(customer);
