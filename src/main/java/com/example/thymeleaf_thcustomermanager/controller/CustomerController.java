@@ -3,7 +3,6 @@ package com.example.thymeleaf_thcustomermanager.controller;
 import com.example.thymeleaf_thcustomermanager.model.Customer;
 import com.example.thymeleaf_thcustomermanager.service.CustomerService;
 import com.example.thymeleaf_thcustomermanager.service.ICustomerService;
-import jdk.internal.icu.text.NormalizerBase;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
